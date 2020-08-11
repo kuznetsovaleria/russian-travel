@@ -1,0 +1,44 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+.page {
+    min-width: 1280px;
+    background-color: #2A2C2F;
+    margin: 0 auto;
+    font-family: Inter, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+ @media screen and (max-width: 1024px) {
+    .page {
+      min-width: 1024px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .page {
+      min-width: 768px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page {
+      min-width: 425px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+      min-width: 320px;
+    }
+} 
+
+
+
+
