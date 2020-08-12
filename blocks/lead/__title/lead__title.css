@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
-    line-height: 1.4;
+    line-height: 104%;
     text-align: center;
     color: white;
 }
@@ -26,7 +26,7 @@
         max-width: 395px;
         margin: 48px 16px 0;
         font-size: 40px;
-        line-height: 44px;
+        line-height: 110%;
     }
 }
 
@@ -35,7 +35,7 @@
         max-width: 288px;
         margin: 48px 16px 0;
         font-size: 40px;
-        line-height: 44px;
+        line-height: 110%;
     }
 }
 
