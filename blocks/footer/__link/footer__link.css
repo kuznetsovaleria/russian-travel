@@ -14,23 +14,18 @@
 
 .footer__link:hover {
     opacity: .8;
+    transition: opacity 0.5s ease-in;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .footer__link {
-        margin: 0 auto 32px 0;
-        font-size: 22px;
-        line-height: 22px;
+        margin: 0 auto 25px 0;
+        font-size: 20px;
+        line-height: 20px;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .footer__link:last-of-type {
-        margin-bottom: 40px;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .footer__link {
         margin: 0 auto 32px 0;
         font-size: 24px;

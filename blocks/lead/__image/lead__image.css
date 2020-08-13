@@ -14,13 +14,18 @@
 @media screen and (max-width: 768px) {
    .lead__image {
       min-height: 480px;
-      margin-top: 56px;
+   }
+}
+
+@media screen and (max-width: 560px) {
+   .lead__image {
+      min-height: 300px;
    }
 }
 
 @media screen and (max-width: 425px) {
    .lead__image {
-      min-height: 266px;
+      min-height: 250px;
       margin-top: 40px;
    }
 }
@@ -28,7 +33,6 @@
 @media screen and (max-width: 320px) {
    .lead__image {
       min-height: 200px;
-      margin-top: 40px;
    }
 }
 

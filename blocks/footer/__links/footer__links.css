@@ -4,21 +4,10 @@
     align-items: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .footer__links {
         width: 100%;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;  
-    }
-}
-
-
-@media screen and (max-width: 320px) {
-    .footer__links {
-        width: 100%;
-        flex-direction: column;
-        justify-content: space-between;
         align-items: flex-start;  
     }
 }
