@@ -4,6 +4,11 @@
     line-height: 122%;
     text-decoration-line: underline;
     color: #ffffff;
+    margin-right: 18px;
+}
+
+.place__link:last-of-type {
+    margin-right: 0;
 }
 
 .place__link:hover {

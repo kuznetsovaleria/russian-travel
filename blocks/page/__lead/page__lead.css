@@ -1,0 +1,15 @@
+.page__lead {
+    margin: 0 auto;  
+}
+
+@media screen and (max-width: 1024px) {
+    .page__lead {
+        margin: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page__lead {
+        margin: 0;
+    }
+}

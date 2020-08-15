@@ -1,21 +1,21 @@
-.intro__container {
+.page__intro {
     margin: 92px auto;  
 }
 
 @media screen and (max-width: 1024px) {
-    .intro__container {
+    .page__intro {
         margin: 92px 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .intro__container {
+    .page__intro {
         margin: 88px 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .intro__container {
-        margin: 64px 16px;;
+    .page__intro {
+        margin: 64px 16px;
     }
 }

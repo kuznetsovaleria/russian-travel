@@ -8,6 +8,7 @@
     color: #FFFFFF;
     align-self: flex-start;
     margin: 8px 0 0;
+    max-width: 159px;
 }
 
 @media screen and (max-width: 768px) {
